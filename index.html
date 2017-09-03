@@ -72,11 +72,13 @@ layout: default
     {% endfor %}
   </div>
 
-  <div class="text-wrapper">
-    <h2 class="caps padding-xs-b border-basic-b">About Me</h2>
+    <div class="text-wrapper">
+      <h2 class="caps padding-xs-b border-basic-b">About Me</h2>
 
-    {{ bio | markdownify }}
-  </div>
+      {{ bio | markdownify }}
+    </div>
+
+    <img src="{{ site.baseurl }}/media/content/headshot.jpg" alt="headshot">
 
 </div>
 
